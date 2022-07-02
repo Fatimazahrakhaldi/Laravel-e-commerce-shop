@@ -28,6 +28,7 @@ Route::view('/checkout', 'front.pages.checkout');
 Route::view('/category', 'front.pages.category');
 Route::view('/product', 'front.pages.product');
 Route::view('/orderconfirmation', 'front.pages.orderConfirmation');
+Route::view('/admin', 'admin.index');
 
 // install the laravel/ui package
 // Auth::routes();
